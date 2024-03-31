@@ -1,7 +1,11 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import CardItem from "@/components/CardItem.vue";
+</script>
 
 <template>
-  <h1 class="text-blue-600">App</h1>
+  <div class="bg-[#141414] h-screen flex justify-center items-center">
+    <CardItem />
+  </div>
 </template>
 
 <style scoped></style>
